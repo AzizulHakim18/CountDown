@@ -1,13 +1,13 @@
 window.onload = function () {
 
-    var seconds = 00;
-    var tens = 00;
-    var appendTens = document.getElementById("tens")
-    var appendSeconds = document.getElementById("seconds")
-    var buttonStart = document.getElementById('button-start');
-    var buttonStop = document.getElementById('button-stop');
-    var buttonReset = document.getElementById('button-reset');
-    var Interval;
+    let seconds = 00;
+    let tens = 00;
+    const appendTens = document.getElementById("tens")
+    const appendSeconds = document.getElementById("seconds")
+    const buttonStart = document.getElementById('button-start');
+    const buttonStop = document.getElementById('button-stop');
+    const buttonReset = document.getElementById('button-reset');
+    let Interval;
 
     buttonStart.onclick = function () {
 
