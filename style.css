@@ -1,8 +1,38 @@
 body {
-    background-color: rgb(44, 161, 239);
+    /* background-color: rgb(44, 161, 239); */
+    background-color: #272727;
+    color: wheat;
     font-family: 'Aclonica', sans-serif;
+
 }
 
 .container {
     text-align: center;
 }
+
+.display-time {
+
+
+    transition: ease-in-out 0.1s;
+    transition-property: background-color, box-shadow, color;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+}
+
+
+
+button:hover {
+    background-color: #ffd868;
+    box-shadow: 0 0 30px#ffd868;
+    color: #272727;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+    transition-property: background-color, box-shadow, color;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, rgba(255, 255, 255, 0.05));
+}
+
+/*  .display-time:hover {
+        background-color: #ffd868;
+        box-shadow: 0 0 30px#ffd868;
+        color: #272727;
+        cursor: pointer;
+    } */

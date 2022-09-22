@@ -14,27 +14,29 @@
 </head>
 
 <body>
-
-    <div class="container my-12 py-12">
+    <nav class="my-12 py-12 text-center">
+        <button onclick="window.location.href='/indext.html'"
+            class="bg-sky-300 text-2xl text-white px-4 py-2 rounded-lg">Timer</button>
+        <button onclick="window.location.href='/time.html'"
+            class="bg-sky-300 text-2xl text-white px-4 py-2 rounded-lg">Local Time</button>
+    </nav>
+    <div class="container mb-8 pb-8">
         <h1> <i class="fa-regular fa-hourglass-half text-7xl"></i> <span class="text-7xl"> STOPWATCH</span></h1>
 
-        <p class="my-4 py-4">
+        <p class="mt-8 pt-8 display-time">
             <span id="minute" class="text-7xl">00</span>m
             <span class="text-7xl">:</span>
             <span id="seconds" class="text-7xl">00</span>s
             <span class="text-7xl">:</span>
             <span id="tens" class="text-xl">00</span>
         </p>
-        <button id="button-start"
-            class="bg-rose-400 text-2xl text-white	px-8 py-4 rounded-lg  hover:bg-slate-200 hover:text-rose-400">Start</button>
-        <button id="button-stop"
-            class="bg-rose-400 text-2xl text-white	px-8 py-4 rounded-lg  hover:bg-slate-200 hover:text-rose-400">Stop</button>
-        <button id="button-reset"
-            class="bg-rose-400 text-2xl text-white	px-8 py-4 rounded-lg  hover:bg-slate-200 hover:text-rose-400">Reset</button>
+        <div class="mt-12 pt-12">
+            <button id="button-start" class="bg-rose-400 text-2xl text-white px-8 py-4 rounded-lg">Start</button>
+            <button id="button-stop" class="bg-rose-400 text-2xl text-white	px-8 py-4 rounded-lg">Stop</button>
+            <button id="button-reset" class="bg-rose-400 text-2xl text-white px-8 py-4 rounded-lg">Reset</button>
+        </div>
 
     </div>
-
-
 
     <script src="script.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
